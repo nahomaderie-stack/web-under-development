@@ -121,7 +121,7 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full sm:w-auto animate-[slideUp_1.1s_cubic-bezier(0.16,1,0.3,1)_forwards]">
           {/* Phone Call Action */}
           <a
-            href="tel:+251103456789"
+            href="tel:+251116683235"
             className="w-full sm:w-auto justify-center px-4 py-2.5 rounded-2xl bg-white text-black font-medium text-sm transition-all duration-300 hover:bg-[#38b000] hover:text-white hover:-translate-y-0.5 active:translate-y-0 flex items-center gap-2 shadow-sm"
           >
             <svg
@@ -137,7 +137,7 @@ export default function HeroSection() {
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            <span>+251 (103) 456-789</span>
+            <span>+251 11 668 3235</span>
           </a>
 
           {/* Email Action Directs to Gmail */}
@@ -168,14 +168,14 @@ export default function HeroSection() {
                 if (status === 'error') setStatus('idle');
               }}
               className={`w-11 h-6 flex items-center rounded-full p-1 transition-colors duration-300 ${isNotifyOpen || status === 'submitted'
-                  ? 'bg-green-500'
-                  : 'bg-zinc-700'
+                ? 'bg-green-500'
+                : 'bg-zinc-700'
                 }`}
             >
               <div
                 className={`bg-white w-4 h-4 rounded-full shadow-md transform transition-transform duration-300 ${isNotifyOpen || status === 'submitted'
-                    ? 'translate-x-5'
-                    : 'translate-x-0'
+                  ? 'translate-x-5'
+                  : 'translate-x-0'
                   }`}
               />
             </button>
